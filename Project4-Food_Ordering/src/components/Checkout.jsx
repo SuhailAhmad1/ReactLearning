@@ -33,7 +33,7 @@ export default function Checkout() {
   function handleFinish() {
     cartCtx.clearCart();
     handleClose();
-    clearData()
+    clearData();
   }
 
   function handleSubmit(event) {
